@@ -14,3 +14,4 @@ public
 doc/notes.txt
 .vscode
 node_modules
+# git config --global credential.helper wincred

@@ -27,7 +27,9 @@ module.exports = {
   },
   plugins: [
       new HtmlWebpackPlugin({
-        title: 'HSBCnet'
+        title: 'HSBCnet',
+        template: 'src/index.html', // 源模板文件
+        filename: './index.html'
       }),
       new CleanWebpackPlugin(['public'])
   ],
